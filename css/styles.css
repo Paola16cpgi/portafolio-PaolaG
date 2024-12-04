@@ -1,0 +1,725 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+h1,h2,h3{
+    font-family: "Archivo Black", sans-serif;
+}
+p{
+    font-family: "Poppins", sans-serif;
+}
+*{
+   
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+header.day-mode {
+    background-image: url("../img/Group\ 10.png");  /* Aquí va la imagen para el modo día */
+}
+
+/* Modo Noche */
+header.night-mode {
+    background-image: url("../img/noche1.png");  /* Aquí va la imagen para el modo noche */
+    
+}
+header.night-mode .navbar ul li a {
+    color: #f0f0f0;
+}
+
+#sobre-mi.day-mode{
+    background-image: url("../img/FOND.png");
+}
+
+#sobre-mi.night-mode{
+    background-image: url("../img/noc1.png");
+}
+
+#Habilidades.day-mode{
+    background-image: url("../img/Group\ 7.png");
+}
+
+#Habilidades.night-mode{
+    background-image: url("../img/noch\ 3.png");
+}
+
+#Portafolio.day-mode{
+    background-image: url("../img/Group\ 8\ \(1\).png");
+}
+
+#Portafolio.night-mode{
+    background-image: url("../img/noch\ 4.png");
+}
+
+#Portafolio.night-mode p{
+    color: lightgoldenrodyellow;
+}
+
+#exper.day-mode{
+    background-image: url("../img/Group\ 7.png");
+}
+
+#exper.night-mode{
+    background-image: url("../img/noch5.png");
+}
+
+#exper.night-mode p{
+    color: lightgoldenrodyellow;
+}
+
+#hobi.day-mode{
+    background-image: url("../img/fondo-final.png");
+}
+
+#hobi.night-mode{
+    background-image: url("../img/noc\ 6.png");
+}
+
+#hobi.night-mode p{
+    color: lightgoldenrodyellow;
+}
+
+#toggle-mode i{
+    font-size: 25px;
+}
+
+#toggle-mode{
+    border: none;
+    outline: none;
+    border-radius: 100%;
+}
+
+.navbar ul li a{
+    color: black;
+    font-size: 25px;
+    position: relative;
+    transition: transform 0.3s ease
+    
+}
+.navbar-toggler button{
+    color: #6482AD;
+    fill: none;
+  }
+  
+  #toggle-mode i {
+    background: transparent;
+  }
+  
+.navbar-toggler-icon span{
+    stroke: #6482AD;
+
+}
+.navbar ul li a:hover{
+    color: rgb(88, 86, 86);
+}
+
+header{
+    background-image: url("../img/Group\ 10.png");
+    max-width: 100%;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+   align-items: flex-end;
+   padding-bottom: 0;
+}
+
+#header-home{
+    background-color: #6482AD;
+}
+.navbar-toggler {
+    border-color: #7089ac !important; /* Cambia el color del borde del botón */
+}
+  
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%236482AD' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+.navbar-collapse {
+    background-color: transparent; /* Fondo para el menú desplegable */
+}
+
+.navbar-nav .nav-item .nav-link {
+    text-align: center; /* Centrar los enlaces */
+    padding: 10px;
+    color: #050505; /* Cambiar color de texto en pantallas pequeñas */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    background-color: transparent;
+    color: #6482AD;
+}
+header nav li.nav-item{
+    margin: 0 20px ;
+}
+
+#hero .iconos-redes{
+    font-size: 60px;
+    display: flex;
+    padding: 5px;
+    margin-left: 50px;
+    border-radius: 5px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    padding-left: -200px;
+    margin-right: -20px;
+   
+}
+
+.foto-p img {
+    position: absolute;
+    bottom: 0;
+    margin-left: -120px; /* Ajusta este valor según donde quieras posicionar horizontalmente la imagen */
+    max-width: 500px; /* Control del ancho máximo */
+    height: auto; /* Mantiene la proporción *//* Limita la altura al 90% del contenedor */
+}
+
+#hero h2{
+    margin-top: 180px;
+    font-size: 54px;
+    color: aliceblue;
+    text-shadow: 10px black;
+}
+
+#hero h1{
+    margin-top: 30px;
+    font-size: 45px;
+    color: aliceblue;
+    text-shadow: 10px black;
+}
+
+#sobre-mi{
+    background-image: url("../img/FOND.png");
+    background-size: cover;
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+#sobre-mi .resu img{
+    width: 250px;
+    position: relative;
+    margin-top: 180px;
+
+}
+
+
+
+
+#sobre-mi h2{
+    position: relative;
+    font-size: 50px;
+    top:50px;
+    text-align: center;
+    color: aliceblue;
+}
+#sobre-mi h2{
+    transition: transform 0.3s ease;
+}
+
+#sobre-mi h2:hover{
+    color: black;
+}
+
+#sobre-mi p{
+   font-size: 25px;
+}
+
+.par{
+    background-color: #f0f0f0; /* Fondo gris claro, puedes cambiarlo a cualquier color */
+   padding: 50px;/* Añadir un poco de espacio alrededor del texto */
+   margin-left: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    transition-duration: 2s;
+
+}
+
+#sobre-mi .par:hover{
+    background:antiquewhite;
+
+}
+#sobre-mi .par {
+    position: relative;
+  
+}
+
+#sobre-mi .par p{
+    z-index: 2;
+    position: relative;
+}
+
+#sobre-mi .par::before{
+    width: 100%;
+    height: 100%;
+    content: "";
+    top:-20px;
+    right: -20px;
+    background: transparent;
+    position:absolute;
+    border: 5px solid black;
+    z-index: 1;
+}
+
+#sobre-mi button{
+    margin-top: 10px;
+    margin-left: 50px;
+    border-radius: 8px;
+    padding: 10px;
+    background: transparent;
+    border-color: transparent;
+    font-size: 20px;
+    color: aliceblue;
+    font-weight: 800;
+}
+
+#sobre-mi button{
+    transition: opacity 0.5s ease;
+}
+
+#sobre-mi button:hover{
+    opacity: 0.7; 
+}
+
+#Habilidades{
+    background-image: url("../img/Group\ 7.png");
+    background-size: cover;
+    position: relative;
+    max-width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+ 
+#Habilidades h2{
+    position: relative;
+    font-size: 50px;
+    top:50px;
+    text-align: center;
+    color: aliceblue;
+}
+
+#Habilidades h2{
+    transition: transform 0.3s ease;
+}
+
+#Habilidades h2:hover{
+    color: black;
+}
+
+#Habilidades .skill img{
+    margin-top: 150px;
+    margin-bottom: 70px;
+    position: relative;
+    width: 650px;
+}
+
+
+#Habilidades .ronda img{
+    margin-top: 270px;
+    bottom: 0;
+    position: absolute;
+    width: 500px; /* Control del ancho máximo */
+    height: auto
+}
+
+
+#carouselExampleIndicators {
+    margin: 100px auto; /* Márgenes arriba y abajo */
+    max-width: 1080px; /* Ajusta el ancho máximo del carrusel */
+    border: 2px solid #ddd; /* Opcional: Agrega un borde para distinguir el carrusel */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; 
+    margin-bottom: 50px;
+}
+
+#Portafolio{
+    background-image: url("../img/Group\ 8\ \(1\).png");
+    background-size: cover;
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+
+#Portafolio h2{
+    position: relative;
+    font-size: 50px;
+    top:50px;
+    text-align: center;
+    color: aliceblue;
+}
+
+#Portafolio h2{
+    transition: transform 0.3s ease;
+}
+
+#Portafolio h2:hover{
+    color: black;
+}
+
+#Portafolio p{
+    position: relative;
+    top:70px;
+    text-align: center;
+    color: black;
+    font-size: 26px;
+}
+
+.card-estudio h4{
+    text-align: center;
+}
+
+#exper .card-estudio{
+    margin-top: -40px;
+    margin-bottom: 200px;
+    background-color: #6482AD;
+}
+
+#exper .card-estudio:hover{
+    background: rgba(219, 209, 209, 0.151);
+}
+
+#exper .card-estudios {
+    background:#6482AD; /* Color de fondo */
+    border: 1px solid #ddd; /* Borde */
+    border-radius: 8px; /* Esquinas redondeadas */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centrar contenido */
+    width: 100%; /* Ancho total */
+    height: 250px; /* Altura ajustada */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 70px;
+}
+
+#exper .card-estudios:hover{
+    background: rgba(219, 209, 209, 0.151);
+}
+  
+.card-estudios img {
+    max-width: 100px; /* Ajustar tamaño de imagen */
+    margin-bottom: 80px; /* Espaciado debajo de la imagen */
+    margin-top: 50px;
+}
+
+#exper{
+    background-image: url("../img/Group\ 7.png");
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+#exper h2{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+    color: aliceblue;
+}
+
+#exper h2{
+    transition: transform 0.3s ease;
+}
+
+#exper h2:hover{
+    color: black;
+}
+
+#exper h2 span{
+    margin-top: 50px;
+    border-bottom: 4px solid white;
+}
+
+#exper p{
+    margin-top: 150px;
+    font-size: 26px;
+    text-align: center;
+    justify-content: center;
+}
+
+#exper h3{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 40px;
+    color: aliceblue;
+}
+
+#exper h3{
+    transition: transform 0.3s ease;
+}
+
+#exper h3:hover{
+    color: black;
+}
+
+#exper h3 span{
+    margin-top: 50px;
+    border-bottom: 4px solid white;
+}
+
+.card-estudios h4{
+    margin-top: -20px;
+}
+
+#hobi{
+    background-image: url("../img/fondo-final.png");
+    background-size: cover;
+    height: auto;
+    position: relative;
+}
+
+#hobi img{
+    margin-left: 40px;
+    width: 250px;
+    height: 250px;
+    margin-top: 100px;
+}
+
+#hobi h2{
+    position: relative;
+    font-size: 50px;
+    top:50px;
+    text-align: center;
+    color: aliceblue;
+}
+
+#hobi h2{
+    transition: transform 0.3s ease;
+}
+
+#hobi h2:hover{
+    color: black;
+}
+
+#hobi p{
+    margin-top: 20px;
+   margin-left: 130px;
+    margin-bottom: 60px;
+}
+
+#hobi img{
+    transition: transform 0.3s ease;
+}
+
+#hobi img:hover{
+    transform: rotate(15deg);
+}
+/* Pantallas medianas (tabletas) */
+@media (max-width: 768px) {
+    /* Ajustes para el hero */
+    #hero {
+        height: auto; /* Deja que crezca según el contenido */
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* Imagen del perfil */
+    .foto-p img {
+        max-width: 300px;
+        height: auto;
+        margin-bottom: 20px; /* Separación entre la imagen y el texto */
+    }
+
+    /* Títulos */
+    #hero h2 {
+        font-size: 32px;
+        margin-top: 10px;
+    }
+
+    #hero h1 {
+        font-size: 28px;
+        margin-top: 10px;
+    }
+
+    /* Iconos de redes */
+    .iconos-redes {
+        font-size: 45px; /* Reducir el tamaño de las fuentes */
+        margin-left: 30px; /* Ajustar margen izquierdo */
+        margin-top: 40px; /* Subir un poco */
+        margin-bottom: 80px; /* Reducir margen inferior */
+        padding-left: 0; /* Eliminar relleno negativo */
+        margin-right: -10px;
+        justify-content: center;
+    }
+    
+    .iconos-redes i {
+        margin: 0 10px; /* Espaciado entre iconos */
+    }
+
+    
+
+    /* Barra de navegación */
+    .navbar {
+        flex-direction: column; /* Coloca los elementos en columna */
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 5px 0; /* Espaciado entre enlaces */
+    }
+
+    .navbar-toggler {
+        margin-bottom: 10px;
+    }
+
+    #sobre-mi p {
+        font-size: 22px; /* Reducir ligeramente el tamaño de fuente */
+    }
+
+    #sobre-mi .resu img {
+        width: 200px; /* Reducir el ancho para adaptarse mejor */
+        margin-top: 150px; /* Ajustar margen superior */
+    }
+
+    #hobi img {
+        margin-left: 20px; /* Reducir el margen izquierdo */
+        width: 200px; /* Disminuir el ancho */
+        height: 200px; /* Disminuir la altura */
+        margin-top: 80px; /* Ajustar el margen superior */
+    }
+}
+
+/* Pantallas pequeñas (móviles) */
+@media (max-width: 576px) {
+    /* Ajustes para el hero */
+    #hero {
+        height: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+    /* Imagen del perfil */
+    .foto-p img {
+        max-width: 200px; /* Reduce aún más la imagen */
+        height: auto;
+        margin: 0 auto 15px auto; /* Centrar y separar la imagen */
+    }
+
+    /* Títulos */
+    #hero h2 {
+        font-size: 24px;
+        margin-top: 10px;
+    }
+
+    #hero h1 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    #carouselExampleIndicators img{
+        width: 100%;
+    }
+
+    /* Iconos de redes */
+    #hero .iconos-redes {
+        font-size: 30px; /* Ajusta el tamaño de los iconos */
+        margin: 5px; /* Reduce los márgenes */
+        padding: 5px; /* Reduce el padding */
+    }
+
+    /* Barra de navegación */
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 5px 0;
+    }
+
+    .navbar-toggler {
+        margin-bottom: 10px;
+    }
+
+    #sobre-mi p {
+        font-size: 18px; /* Tamaño más pequeño para móviles */
+    }
+
+    #sobre-mi .resu img {
+        width: 150px; /* Tamaño más pequeño para móviles */
+        margin-top: 100px; /* Reducir el margen superior para mejor alineación */
+    }
+
+
+    #Habilidades h2 {
+        font-size: 30px; /* Reduce el tamaño de la fuente */
+        top: 20px; /* Ajusta la posición del título */
+    }
+
+    #Habilidades .skill img {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        width: 90%; /* Ajusta el tamaño de la imagen */
+    }
+
+    #Habilidades .ronda img {
+        margin-top: 150px;
+        width: 300px; /* Ajusta el tamaño de la imagen */
+   }
+
+   #carouselExampleIndicators {
+    max-width: 95%; /* Carrusel más ancho en pantallas pequeñas */
+    margin: 50px auto; /* Menor margen */
+   }
+
+   #Portafolio {
+    padding: 20px 10px; /* Reducir padding en pantallas pequeñas */
+    }
+
+    #Portafolio h2 {
+    font-size: 2rem; /* Reducir tamaño del título */
+    }
+
+    #Portafolio p {
+    font-size: 0.9rem; /* Reducir tamaño del párrafo */
+    }
+
+    #exper p {
+        
+        font-size: 18px;  /* Reduce más el tamaño de fuente */
+    }
+
+
+    #hobi {
+    height: auto; /* Ajusta la altura automáticamente */
+    padding: 20px;
+    }
+
+    #hobi img {
+    margin-left: 10px; /* Alinear mejor en pantallas pequeñas */
+    width: 150px; /* Ajustar el ancho */
+    height: 150px; /* Ajustar la altura */
+    margin-top: 50px; /* Reducir el margen superior */
+    }
+
+    #hobi h2 {
+    font-size: 35px; /* Reduce el tamaño del texto */
+    top: 30px;
+    }
+
+    #hobi p {
+    margin-left: 20px; /* Reduce el margen */
+    margin-right: 20px;
+    font-size: 0.9rem; /* Ajusta el tamaño de la fuente */
+    text-align: center; /* Alinea el texto al centro */
+    }
+
+}
+
